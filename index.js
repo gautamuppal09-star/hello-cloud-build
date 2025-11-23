@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 // Data endpoint
 app.get('/api/data', (req, res) => {
     res.json({
-        message: 'This is some sample data.',
+        message: 'This is some sample data by Gautam.',
         timestamp: new Date().toISOString()
     });
 });
