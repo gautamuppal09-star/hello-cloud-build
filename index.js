@@ -4,7 +4,7 @@ const port = process.env.PORT || 8080;
 
 // Root endpoint
 app.get('/', (req, res) => {
-    res.send('Hello, World! Welcome to the Express API for GCP Demo by Gautam.');
+    res.send('Hello, World! Welcome to the Express API for GCP Demo.');
 });
 
 // Data endpoint
